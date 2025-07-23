@@ -1,0 +1,13 @@
+bug:
+  - "**/bug_report.md"
+  - "**/bug*"
+  - "**/*bug*"
+
+enhancement:
+  - "**/feature_request.md"
+  - "**/feature*"
+  - "**/*enhance*"
+
+security:
+  - "**/SECURITY.md"
+  - "**/*vuln*"

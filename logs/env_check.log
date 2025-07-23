@@ -1,0 +1,168 @@
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try apt install
+    python3-xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a non-Debian-packaged Python package,
+    create a virtual environment using python3 -m venv path/to/venv.
+    Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make
+    sure you have python3-full installed.
+    
+    If you wish to install a non-Debian packaged Python application,
+    it may be easiest to use pipx install xyz, which will manage a
+    virtual environment for you. Make sure you have pipx installed.
+    
+    See /usr/share/doc/python3.12/README.venv for more information.
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try apt install
+    python3-xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a non-Debian-packaged Python package,
+    create a virtual environment using python3 -m venv path/to/venv.
+    Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make
+    sure you have python3-full installed.
+    
+    If you wish to install a non-Debian packaged Python application,
+    it may be easiest to use pipx install xyz, which will manage a
+    virtual environment for you. Make sure you have pipx installed.
+    
+    See /usr/share/doc/python3.12/README.venv for more information.
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try apt install
+    python3-xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a non-Debian-packaged Python package,
+    create a virtual environment using python3 -m venv path/to/venv.
+    Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make
+    sure you have python3-full installed.
+    
+    If you wish to install a non-Debian packaged Python application,
+    it may be easiest to use pipx install xyz, which will manage a
+    virtual environment for you. Make sure you have pipx installed.
+    
+    See /usr/share/doc/python3.12/README.venv for more information.
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try apt install
+    python3-xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a non-Debian-packaged Python package,
+    create a virtual environment using python3 -m venv path/to/venv.
+    Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make
+    sure you have python3-full installed.
+    
+    If you wish to install a non-Debian packaged Python application,
+    it may be easiest to use pipx install xyz, which will manage a
+    virtual environment for you. Make sure you have pipx installed.
+    
+    See /usr/share/doc/python3.12/README.venv for more information.
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+Requirement already satisfied: dotenv-linter in ./.venv/lib/python3.12/site-packages (0.7.0)
+Requirement already satisfied: attrs in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (25.3.0)
+Requirement already satisfied: click<9,>=6 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (8.2.1)
+Requirement already satisfied: click_default_group<2.0,>=1.2 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (1.2.4)
+Requirement already satisfied: lark<2.0,>=1.2 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (1.2.2)
+Requirement already satisfied: typing_extensions<5.0,>=4.0 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (4.14.1)
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:1 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:4 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:7 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:8 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:9 302 Found CRLF end-of-line
+Requirement already satisfied: dotenv-linter in ./.venv/lib/python3.12/site-packages (0.7.0)
+Requirement already satisfied: attrs in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (25.3.0)
+Requirement already satisfied: click<9,>=6 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (8.2.1)
+Requirement already satisfied: click_default_group<2.0,>=1.2 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (1.2.4)
+Requirement already satisfied: lark<2.0,>=1.2 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (1.2.2)
+Requirement already satisfied: typing_extensions<5.0,>=4.0 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (4.14.1)
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:1 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:4 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:7 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:8 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:9 302 Found CRLF end-of-line
+Requirement already satisfied: dotenv-linter in ./.venv/lib/python3.12/site-packages (0.7.0)
+Requirement already satisfied: attrs in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (25.3.0)
+Requirement already satisfied: click<9,>=6 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (8.2.1)
+Requirement already satisfied: click_default_group<2.0,>=1.2 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (1.2.4)
+Requirement already satisfied: lark<2.0,>=1.2 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (1.2.2)
+Requirement already satisfied: typing_extensions<5.0,>=4.0 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (4.14.1)
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:1 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:4 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:7 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:8 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:9 302 Found CRLF end-of-line
+Requirement already satisfied: dotenv-linter in ./.venv/lib/python3.12/site-packages (0.7.0)
+Requirement already satisfied: attrs in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (25.3.0)
+Requirement already satisfied: click<9,>=6 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (8.2.1)
+Requirement already satisfied: click_default_group<2.0,>=1.2 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (1.2.4)
+Requirement already satisfied: lark<2.0,>=1.2 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (1.2.2)
+Requirement already satisfied: typing_extensions<5.0,>=4.0 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (4.14.1)
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:1 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:4 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:7 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:8 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:9 302 Found CRLF end-of-line
+Requirement already satisfied: dotenv-linter in ./.venv/lib/python3.12/site-packages (0.7.0)
+Requirement already satisfied: attrs in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (25.3.0)
+Requirement already satisfied: click<9,>=6 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (8.2.1)
+Requirement already satisfied: click_default_group<2.0,>=1.2 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (1.2.4)
+Requirement already satisfied: lark<2.0,>=1.2 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (1.2.2)
+Requirement already satisfied: typing_extensions<5.0,>=4.0 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (4.14.1)
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:1 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:4 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:7 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:8 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:9 302 Found CRLF end-of-line
+Requirement already satisfied: dotenv-linter in ./.venv/lib/python3.12/site-packages (0.7.0)
+Requirement already satisfied: attrs in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (25.3.0)
+Requirement already satisfied: click<9,>=6 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (8.2.1)
+Requirement already satisfied: click_default_group<2.0,>=1.2 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (1.2.4)
+Requirement already satisfied: lark<2.0,>=1.2 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (1.2.2)
+Requirement already satisfied: typing_extensions<5.0,>=4.0 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (4.14.1)
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:1 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:4 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:7 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:8 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:9 302 Found CRLF end-of-line
+Requirement already satisfied: dotenv-linter in ./.venv/lib/python3.12/site-packages (0.7.0)
+Requirement already satisfied: attrs in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (25.3.0)
+Requirement already satisfied: click<9,>=6 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (8.2.1)
+Requirement already satisfied: click_default_group<2.0,>=1.2 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (1.2.4)
+Requirement already satisfied: lark<2.0,>=1.2 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (1.2.2)
+Requirement already satisfied: typing_extensions<5.0,>=4.0 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (4.14.1)
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:1 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:4 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:7 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:8 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:9 302 Found CRLF end-of-line
+Requirement already satisfied: dotenv-linter in ./.venv/lib/python3.12/site-packages (0.7.0)
+Requirement already satisfied: attrs in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (25.3.0)
+Requirement already satisfied: click<9,>=6 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (8.2.1)
+Requirement already satisfied: click_default_group<2.0,>=1.2 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (1.2.4)
+Requirement already satisfied: lark<2.0,>=1.2 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (1.2.2)
+Requirement already satisfied: typing_extensions<5.0,>=4.0 in ./.venv/lib/python3.12/site-packages (from dotenv-linter) (4.14.1)
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:1 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:4 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:7 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:8 302 Found CRLF end-of-line
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.env:9 302 Found CRLF end-of-line

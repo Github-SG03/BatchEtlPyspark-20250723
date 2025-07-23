@@ -1,0 +1,109 @@
+⏳ Waiting for DAG to complete...
+06:34:22 ➤ DAG Status: None
+06:34:56 ➤ DAG Status: None
+06:35:25 ➤ DAG Status: None
+06:35:59 ➤ DAG Status: None
+06:37:00 ➤ DAG Status: None
+06:37:56 ➤ DAG Status: None
+06:38:42 ➤ DAG Status: None
+06:39:29 ➤ DAG Status: None
+06:39:59 ➤ DAG Status: None
+06:40:40 ➤ DAG Status: None
+06:41:15 ➤ DAG Status: None
+06:41:52 ➤ DAG Status: None
+06:42:20 ➤ DAG Status: None
+06:42:57 ➤ DAG Status: None
+06:43:32 ➤ DAG Status: None
+06:44:04 ➤ DAG Status: None
+06:44:31 ➤ DAG Status: None
+06:45:06 ➤ DAG Status: None
+06:45:47 ➤ DAG Status: None
+06:46:26 ➤ DAG Status: None
+06:47:06 ➤ DAG Status: None
+06:47:40 ➤ DAG Status: None
+06:48:15 ➤ DAG Status: None
+06:48:52 ➤ DAG Status: None
+06:49:34 ➤ DAG Status: None
+06:50:16 ➤ DAG Status: None
+06:50:54 ➤ DAG Status: None
+06:51:37 ➤ DAG Status: None
+06:52:18 ➤ DAG Status: None
+06:52:52 ➤ DAG Status: None
+06:54:03 ➤ DAG Status: None
+06:54:43 ➤ DAG Status: None
+06:55:19 ➤ DAG Status: None
+06:55:58 ➤ DAG Status: None
+06:56:36 ➤ DAG Status: None
+06:57:34 ➤ DAG Status: None
+06:58:39 ➤ DAG Status: None
+06:59:28 ➤ DAG Status: None
+07:00:13 ➤ DAG Status: None
+07:00:47 ➤ DAG Status: None
+07:01:32 ➤ DAG Status: None
+07:02:05 ➤ DAG Status: None
+07:02:42 ➤ DAG Status: None
+07:03:31 ➤ DAG Status: None
+07:04:37 ➤ DAG Status: None
+07:05:20 ➤ DAG Status: None
+07:05:52 ➤ DAG Status: None
+07:06:38 ➤ DAG Status: None
+07:07:17 ➤ DAG Status: None
+07:08:00 ➤ DAG Status: None
+07:08:35 ➤ DAG Status: None
+07:09:15 ➤ DAG Status: None
+07:10:02 ➤ DAG Status: None
+11:45:44 ➤ DAG Status: None
+11:46:42 ➤ DAG Status: None
+11:47:32 ➤ DAG Status: None
+11:48:09 ➤ DAG Status: None
+11:48:47 ➤ DAG Status: None
+11:49:27 ➤ DAG Status: None
+11:50:10 ➤ DAG Status: None
+11:50:48 ➤ DAG Status: None
+11:51:24 ➤ DAG Status: None
+11:52:00 ➤ DAG Status: None
+11:52:40 ➤ DAG Status: None
+11:55:55 ➤ DAG Status: None
+11:56:43 ➤ DAG Status: None
+11:57:16 ➤ DAG Status: None
+11:57:51 ➤ DAG Status: None
+11:58:26 ➤ DAG Status: None
+11:59:05 ➤ DAG Status: None
+11:59:39 ➤ DAG Status: None
+12:02:16 ➤ DAG Status: None
+12:03:02 ➤ DAG Status: None
+12:03:46 ➤ DAG Status: None
+12:04:34 ➤ DAG Status: None
+12:05:19 ➤ DAG Status: None
+12:06:10 ➤ DAG Status: None
+12:06:46 ➤ DAG Status: None
+12:07:27 ➤ DAG Status: None
+12:08:04 ➤ DAG Status: None
+12:08:41 ➤ DAG Status: None
+12:09:16 ➤ DAG Status: None
+12:09:58 ➤ DAG Status: None
+12:10:42 ➤ DAG Status: None
+12:11:22 ➤ DAG Status: None
+12:12:03 ➤ DAG Status: None
+12:15:47 ➤ DAG Status: None
+12:16:31 ➤ DAG Status: None
+12:30:13 ➤ DAG Task Status: Creating SparkSession with appName: EcommerceSalesAnalytics and master: local[*]
+SparkSession created successfully.
+None
+[[34m2025-07-19T12:30:12.494+0000[0m] {[34mclientserver.py:[0m543} INFO[0m - Closing down clientserver connection[0m
+✅ DAG completed successfully!
+12:48:20 ➤ DAG Task Status: Creating SparkSession with appName: EcommerceSalesAnalytics and master: local[*]
+SparkSession created successfully.
+None
+[[34m2025-07-19T12:48:19.601+0000[0m] {[34mclientserver.py:[0m543} INFO[0m - Closing down clientserver connection[0m
+✅ DAG completed successfully!
+13:44:47 ➤ DAG Task Status: Creating SparkSession with appName: EcommerceSalesAnalytics and master: local[*]
+SparkSession created successfully.
+None
+[[34m2025-07-19T13:44:46.695+0000[0m] {[34mclientserver.py:[0m543} INFO[0m - Closing down clientserver connection[0m
+✅ DAG completed successfully!
+18:03:45 ➤ DAG Task Status: Creating SparkSession with appName: EcommerceSalesAnalytics and master: local[*]
+SparkSession created successfully.
+None
+[[34m2025-07-20T18:03:44.215+0000[0m] {[34mclientserver.py:[0m543} INFO[0m - Closing down clientserver connection[0m
+✅ DAG completed successfully!

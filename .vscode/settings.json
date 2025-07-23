@@ -1,0 +1,31 @@
+{
+  // 1. Python virtual environment (Linux-native)
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+
+  // 2. Venv path – optional (can remove)
+  // "python.venvPath": "${workspaceFolder}",
+
+  // 3. Automatically activate the venv in terminal
+  "python.terminal.activateEnvironment": true,
+
+  // 4. Extra Python source paths for better IntelliSense
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/src",
+    "${workspaceFolder}/airflow",
+    "${workspaceFolder}/notebooks"
+  ],
+
+  // 5. Enable all linting/analysis inside workspace
+  "python.analysis.diagnosticMode": "workspace",
+  "python.linting.enabled": true,
+
+  // 6. Setup terminal to open in WSL Ubuntu with project path
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "/bin/bash",
+      "args": ["--login"],
+      "icon": "terminal-bash"
+    }
+  }
+}

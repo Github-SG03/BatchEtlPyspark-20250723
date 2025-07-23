@@ -1,0 +1,395 @@
+Input Notebook:  /mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/notebooks/dev_etl_demo.ipynb
+Output Notebook: /mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/notebooks/dev_etl_demo_20250719.ipynb
+Executing:   0%|          | 0/1 [00:00<?, ?cell/s]Kernelspec name powershell cannot be found!
+No such kernel named powershell
+Traceback (most recent call last):
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 154, in wrapped
+    asyncio.get_running_loop()
+RuntimeError: no running event loop
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/jupyter_client/manager.py", line 87, in wrapper
+    out = await method(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/jupyter_client/manager.py", line 435, in _async_start_kernel
+    kernel_cmd, kw = await self._async_pre_start_kernel(**kw)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/jupyter_client/manager.py", line 397, in _async_pre_start_kernel
+    self.kernel_spec,
+    ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/jupyter_client/manager.py", line 195, in kernel_spec
+    self._kernel_spec = self.kernel_spec_manager.get_kernel_spec(self.kernel_name)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/jupyter_client/kernelspec.py", line 285, in get_kernel_spec
+    raise NoSuchKernel(kernel_name)
+jupyter_client.kernelspec.NoSuchKernel: No such kernel named powershell
+Executing:   0%|          | 0/1 [00:08<?, ?cell/s]
+Traceback (most recent call last):
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 154, in wrapped
+    asyncio.get_running_loop()
+RuntimeError: no running event loop
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/bin/papermill", line 10, in <module>
+    sys.exit(papermill())
+             ^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/click/decorators.py", line 34, in new_func
+    return f(get_current_context(), *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/papermill/execute.py", line 116, in execute_notebook
+    nb = papermill_engines.execute_notebook_with_engine(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/papermill/engines.py", line 48, in execute_notebook_with_engine
+    return self.get_engine(engine_name).execute_notebook(nb, kernel_name, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/papermill/engines.py", line 370, in execute_notebook
+    cls.execute_managed_notebook(nb_man, kernel_name, log_output=log_output, **kwargs)
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/papermill/engines.py", line 442, in execute_managed_notebook
+    return PapermillNotebookClient(nb_man, **final_kwargs).execute()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/papermill/clientwrap.py", line 43, in execute
+    with self.setup_kernel(**kwargs):
+  File "/usr/lib/python3.12/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/nbclient/client.py", line 600, in setup_kernel
+    self.start_new_kernel(**kwargs)
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 158, in wrapped
+    return loop.run_until_complete(inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/nbclient/client.py", line 550, in async_start_new_kernel
+    await ensure_async(self.km.start_kernel(extra_arguments=self.extra_arguments, **kwargs))
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 197, in ensure_async
+    result = await obj
+             ^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/jupyter_client/manager.py", line 96, in wrapper
+    raise e
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/jupyter_client/manager.py", line 87, in wrapper
+    out = await method(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/jupyter_client/manager.py", line 435, in _async_start_kernel
+    kernel_cmd, kw = await self._async_pre_start_kernel(**kw)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/jupyter_client/manager.py", line 397, in _async_pre_start_kernel
+    self.kernel_spec,
+    ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/jupyter_client/manager.py", line 195, in kernel_spec
+    self._kernel_spec = self.kernel_spec_manager.get_kernel_spec(self.kernel_name)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/jupyter_client/kernelspec.py", line 285, in get_kernel_spec
+    raise NoSuchKernel(kernel_name)
+jupyter_client.kernelspec.NoSuchKernel: No such kernel named powershell
+Input Notebook:  /mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/notebooks/dev_etl_demo.ipynb
+Output Notebook: /mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/notebooks/dev_etl_demo_20250719.ipynb
+Executing:   0%|          | 0/1 [00:00<?, ?cell/s]Kernelspec name powershell cannot be found!
+No such kernel named powershell
+Traceback (most recent call last):
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 154, in wrapped
+    asyncio.get_running_loop()
+RuntimeError: no running event loop
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/jupyter_client/manager.py", line 87, in wrapper
+    out = await method(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/jupyter_client/manager.py", line 435, in _async_start_kernel
+    kernel_cmd, kw = await self._async_pre_start_kernel(**kw)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/jupyter_client/manager.py", line 397, in _async_pre_start_kernel
+    self.kernel_spec,
+    ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/jupyter_client/manager.py", line 195, in kernel_spec
+    self._kernel_spec = self.kernel_spec_manager.get_kernel_spec(self.kernel_name)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/jupyter_client/kernelspec.py", line 285, in get_kernel_spec
+    raise NoSuchKernel(kernel_name)
+jupyter_client.kernelspec.NoSuchKernel: No such kernel named powershell
+Executing:   0%|          | 0/1 [00:05<?, ?cell/s]
+Traceback (most recent call last):
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 154, in wrapped
+    asyncio.get_running_loop()
+RuntimeError: no running event loop
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/bin/papermill", line 10, in <module>
+    sys.exit(papermill())
+             ^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/click/decorators.py", line 34, in new_func
+    return f(get_current_context(), *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/papermill/execute.py", line 116, in execute_notebook
+    nb = papermill_engines.execute_notebook_with_engine(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/papermill/engines.py", line 48, in execute_notebook_with_engine
+    return self.get_engine(engine_name).execute_notebook(nb, kernel_name, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/papermill/engines.py", line 370, in execute_notebook
+    cls.execute_managed_notebook(nb_man, kernel_name, log_output=log_output, **kwargs)
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/papermill/engines.py", line 442, in execute_managed_notebook
+    return PapermillNotebookClient(nb_man, **final_kwargs).execute()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/papermill/clientwrap.py", line 43, in execute
+    with self.setup_kernel(**kwargs):
+  File "/usr/lib/python3.12/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/nbclient/client.py", line 600, in setup_kernel
+    self.start_new_kernel(**kwargs)
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 158, in wrapped
+    return loop.run_until_complete(inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/nbclient/client.py", line 550, in async_start_new_kernel
+    await ensure_async(self.km.start_kernel(extra_arguments=self.extra_arguments, **kwargs))
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 197, in ensure_async
+    result = await obj
+             ^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/jupyter_client/manager.py", line 96, in wrapper
+    raise e
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/jupyter_client/manager.py", line 87, in wrapper
+    out = await method(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/jupyter_client/manager.py", line 435, in _async_start_kernel
+    kernel_cmd, kw = await self._async_pre_start_kernel(**kw)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/jupyter_client/manager.py", line 397, in _async_pre_start_kernel
+    self.kernel_spec,
+    ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/jupyter_client/manager.py", line 195, in kernel_spec
+    self._kernel_spec = self.kernel_spec_manager.get_kernel_spec(self.kernel_name)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/jupyter_client/kernelspec.py", line 285, in get_kernel_spec
+    raise NoSuchKernel(kernel_name)
+jupyter_client.kernelspec.NoSuchKernel: No such kernel named powershell
+Input Notebook:  /mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/notebooks/dev_etl_demo.ipynb
+Output Notebook: /mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/notebooks/dev_etl_demo.ipynb
+Executing:   0%|          | 0/1 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+25/07/19 13:45:31 WARN Utils: Your hostname, LAPTOP-2CRA05LG resolves to a loopback address: 127.0.1.1; using 10.255.255.254 instead (on interface lo)
+25/07/19 13:45:31 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+25/07/19 13:45:32 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Executing: 100%|██████████| 1/1 [00:40<00:00, 40.91s/cell]Executing: 100%|██████████| 1/1 [00:43<00:00, 43.53s/cell]
+Traceback (most recent call last):
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/bin/papermill", line 10, in <module>
+    sys.exit(papermill())
+             ^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/click/decorators.py", line 34, in new_func
+    return f(get_current_context(), *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/papermill/execute.py", line 131, in execute_notebook
+    raise_for_execution_errors(nb, output_path)
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/papermill/execute.py", line 251, in raise_for_execution_errors
+    raise error
+papermill.exceptions.PapermillExecutionError: 
+---------------------------------------------------------------------------
+Exception encountered at "In [1]":
+---------------------------------------------------------------------------
+AnalysisException                         Traceback (most recent call last)
+Cell In[1], line 9
+      3 spark = SparkSession.builder \
+      4     .appName("EcommerceDataAnalysis") \
+      5     .master("local[*]") \
+      6     .getOrCreate()
+      8 # 2. Read the output Parquet
+----> 9 df = spark.read.parquet("../data/analytics/output")
+     10 df.show(5)
+     11 df.printSchema()
+
+File /mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/pyspark/sql/readwriter.py:544, in DataFrameReader.parquet(self, *paths, **options)
+    533 int96RebaseMode = options.get("int96RebaseMode", None)
+    534 self._set_opts(
+    535     mergeSchema=mergeSchema,
+    536     pathGlobFilter=pathGlobFilter,
+   (...)    541     int96RebaseMode=int96RebaseMode,
+    542 )
+--> 544 return self._df(self._jreader.parquet(_to_seq(self._spark._sc, paths)))
+
+File /mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/py4j/java_gateway.py:1322, in JavaMember.__call__(self, *args)
+   1316 command = proto.CALL_COMMAND_NAME +\
+   1317     self.command_header +\
+   1318     args_command +\
+   1319     proto.END_COMMAND_PART
+   1321 answer = self.gateway_client.send_command(command)
+-> 1322 return_value = get_return_value(
+   1323     answer, self.gateway_client, self.target_id, self.name)
+   1325 for temp_arg in temp_args:
+   1326     if hasattr(temp_arg, "_detach"):
+
+File /mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/pyspark/errors/exceptions/captured.py:185, in capture_sql_exception.<locals>.deco(*a, **kw)
+    181 converted = convert_exception(e.java_exception)
+    182 if not isinstance(converted, UnknownException):
+    183     # Hide where the exception came from that shows a non-Pythonic
+    184     # JVM exception message.
+--> 185     raise converted from None
+    186 else:
+    187     raise
+
+AnalysisException: [PATH_NOT_FOUND] Path does not exist: file:/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/data/analytics/output.
+
+Input Notebook:  /mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/notebooks/dev_etl_demo.ipynb
+Output Notebook: /mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/notebooks/dev_etl_demo.ipynb
+Executing:   0%|          | 0/1 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+25/07/20 18:05:49 WARN Utils: Your hostname, LAPTOP-2CRA05LG resolves to a loopback address: 127.0.1.1; using 10.255.255.254 instead (on interface lo)
+25/07/20 18:05:49 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+25/07/20 18:05:51 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/07/20 18:05:55 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[Stage 0:>                                                          (0 + 0) / 1][Stage 0:>                                                          (0 + 1) / 1][Stage 0:===========================================================(1 + 0) / 1]                                                                                25/07/20 18:06:22 WARN DataSource: All paths were ignored:
+  
+Executing: 100%|██████████| 1/1 [02:11<00:00, 131.87s/cell]25/07/20 18:06:58 WARN JavaUtils: Attempt to delete using native Unix OS command failed for path = /tmp/spark-ce11b069-da0a-4e14-b498-34a76516da15/userFiles-137f611f-c97e-4416-9116-e9c3bf4e852b. Falling back to Java IO way
+java.io.IOException: Failed to delete: /tmp/spark-ce11b069-da0a-4e14-b498-34a76516da15/userFiles-137f611f-c97e-4416-9116-e9c3bf4e852b
+	at org.apache.spark.network.util.JavaUtils.deleteRecursivelyUsingUnixNative(JavaUtils.java:173)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:109)
+	at org.apache.spark.network.util.JavaUtils.deleteRecursively(JavaUtils.java:90)
+	at org.apache.spark.util.SparkFileUtils.deleteRecursively(SparkFileUtils.scala:121)
+	at org.apache.spark.util.SparkFileUtils.deleteRecursively$(SparkFileUtils.scala:120)
+	at org.apache.spark.util.Utils$.deleteRecursively(Utils.scala:1126)
+	at org.apache.spark.SparkEnv.stop(SparkEnv.scala:108)
+	at org.apache.spark.SparkContext.$anonfun$stop$25(SparkContext.scala:2310)
+	at org.apache.spark.util.Utils$.tryLogNonFatalError(Utils.scala:1375)
+	at org.apache.spark.SparkContext.stop(SparkContext.scala:2310)
+	at org.apache.spark.SparkContext.stop(SparkContext.scala:2216)
+	at org.apache.spark.SparkContext.$anonfun$new$34(SparkContext.scala:686)
+	at org.apache.spark.util.SparkShutdownHook.run(ShutdownHookManager.scala:214)
+	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$2(ShutdownHookManager.scala:188)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1928)
+	at org.apache.spark.util.SparkShutdownHookManager.$anonfun$runAll$1(ShutdownHookManager.scala:188)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.util.Try$.apply(Try.scala:213)
+	at org.apache.spark.util.SparkShutdownHookManager.runAll(ShutdownHookManager.scala:188)
+	at org.apache.spark.util.SparkShutdownHookManager$$anon$2.run(ShutdownHookManager.scala:178)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Executing: 100%|██████████| 1/1 [02:14<00:00, 134.78s/cell]
+Traceback (most recent call last):
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/bin/papermill", line 10, in <module>
+    sys.exit(papermill())
+             ^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/click/decorators.py", line 34, in new_func
+    return f(get_current_context(), *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/papermill/cli.py", line 235, in papermill
+    execute_notebook(
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/papermill/execute.py", line 131, in execute_notebook
+    raise_for_execution_errors(nb, output_path)
+  File "/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/papermill/execute.py", line 251, in raise_for_execution_errors
+    raise error
+papermill.exceptions.PapermillExecutionError: 
+---------------------------------------------------------------------------
+Exception encountered at "In [1]":
+---------------------------------------------------------------------------
+AnalysisException                         Traceback (most recent call last)
+Cell In[1], line 9
+      3 spark = SparkSession.builder \
+      4     .appName("EcommerceDataAnalysis") \
+      5     .master("local[*]") \
+      6     .getOrCreate()
+      8 # 2. Read the output Parquet
+----> 9 df = spark.read.parquet(df = spark.read.parquet("/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/data/analytics/output"))
+     10 df.show(5)
+     11 df.printSchema()
+
+File /mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/pyspark/sql/readwriter.py:544, in DataFrameReader.parquet(self, *paths, **options)
+    533 int96RebaseMode = options.get("int96RebaseMode", None)
+    534 self._set_opts(
+    535     mergeSchema=mergeSchema,
+    536     pathGlobFilter=pathGlobFilter,
+   (...)    541     int96RebaseMode=int96RebaseMode,
+    542 )
+--> 544 return self._df(self._jreader.parquet(_to_seq(self._spark._sc, paths)))
+
+File /mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/py4j/java_gateway.py:1322, in JavaMember.__call__(self, *args)
+   1316 command = proto.CALL_COMMAND_NAME +\
+   1317     self.command_header +\
+   1318     args_command +\
+   1319     proto.END_COMMAND_PART
+   1321 answer = self.gateway_client.send_command(command)
+-> 1322 return_value = get_return_value(
+   1323     answer, self.gateway_client, self.target_id, self.name)
+   1325 for temp_arg in temp_args:
+   1326     if hasattr(temp_arg, "_detach"):
+
+File /mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/pyspark/errors/exceptions/captured.py:185, in capture_sql_exception.<locals>.deco(*a, **kw)
+    181 converted = convert_exception(e.java_exception)
+    182 if not isinstance(converted, UnknownException):
+    183     # Hide where the exception came from that shows a non-Pythonic
+    184     # JVM exception message.
+--> 185     raise converted from None
+    186 else:
+    187     raise
+
+AnalysisException: [UNABLE_TO_INFER_SCHEMA] Unable to infer schema for Parquet. It must be specified manually.
+

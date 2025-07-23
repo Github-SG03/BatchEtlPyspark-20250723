@@ -1,0 +1,65 @@
+/mnt/c/Users/Shivam Gupta/OneDrive/Documents/Shivam_Developement/DATA_ENGINEERING/data_engineering_project/batch-etl-pyspark/.venv/lib/python3.12/site-packages/airflow/utils/dot_renderer.py:29 UserWarning: Could not import graphviz. Rendering graph to the graphical format will not be possible.
+[[34m2025-07-19T06:33:55.905+0000[0m] {[34m__init__.py:[0m43} INFO[0m - Loaded API auth backend: airflow.api.auth.backend.session[0m
+     |               |                      |                      |                       |          |                  | last_scheduling_deci |                       |          |            |       
+conf | dag_id        | dag_run_id           | data_interval_start  | data_interval_end     | end_date | external_trigger | sion                 | logical_date          | run_type | start_date | state 
+=====+===============+======================+======================+=======================+==========+==================+======================+=======================+==========+============+=======
+{}   | ecommerce_etl | manual__2025-07-19T0 | 2025-07-18           | 2025-07-19            | None     | True             | None                 | 2025-07-19            | manual   | None       | queued
+     |               | 6:33:58+00:00        | 00:00:00+00:00       | 00:00:00+00:00        |          |                  |                      | 06:33:58+00:00        |          |            |       
+                                                                                                                                                                                                        
+[[34m2025-07-19T11:45:11.496+0000[0m] {[34m__init__.py:[0m43} INFO[0m - Loaded API auth backend: airflow.api.auth.backend.session[0m
+     |               |                      |                      |                       |          |                  | last_scheduling_deci |                       |          |            |       
+conf | dag_id        | dag_run_id           | data_interval_start  | data_interval_end     | end_date | external_trigger | sion                 | logical_date          | run_type | start_date | state 
+=====+===============+======================+======================+=======================+==========+==================+======================+=======================+==========+============+=======
+{}   | ecommerce_etl | manual__2025-07-19T1 | 2025-07-18           | 2025-07-19            | None     | True             | None                 | 2025-07-19            | manual   | None       | queued
+     |               | 1:45:13+00:00        | 00:00:00+00:00       | 00:00:00+00:00        |          |                  |                      | 11:45:13+00:00        |          |            |       
+                                                                                                                                                                                                        
+[[34m2025-07-19T12:19:53.116+0000[0m] {[34m__init__.py:[0m43} INFO[0m - Loaded API auth backend: airflow.api.auth.backend.session[0m
+     |               |                      |                      |                       |          |                  | last_scheduling_deci |                       |          |            |       
+conf | dag_id        | dag_run_id           | data_interval_start  | data_interval_end     | end_date | external_trigger | sion                 | logical_date          | run_type | start_date | state 
+=====+===============+======================+======================+=======================+==========+==================+======================+=======================+==========+============+=======
+{}   | ecommerce_etl | manual__2025-07-19T1 | 2025-07-19           | 2025-07-19            | None     | True             | None                 | 2025-07-19            | manual   | None       | queued
+     |               | 2:19:54+00:00        | 12:19:54+00:00       | 12:19:54+00:00        |          |                  |                      | 12:19:54+00:00        |          |            |       
+                                                                                                                                                                                                        
+[[34m2025-07-19T12:28:55.474+0000[0m] {[34m__init__.py:[0m43} INFO[0m - Loaded API auth backend: airflow.api.auth.backend.session[0m
+     |               |                      |                      |                       |          |                  | last_scheduling_deci |                       |          |            |       
+conf | dag_id        | dag_run_id           | data_interval_start  | data_interval_end     | end_date | external_trigger | sion                 | logical_date          | run_type | start_date | state 
+=====+===============+======================+======================+=======================+==========+==================+======================+=======================+==========+============+=======
+{}   | ecommerce_etl | manual__2025-07-19T1 | 2025-07-19           | 2025-07-19            | None     | True             | None                 | 2025-07-19            | manual   | None       | queued
+     |               | 2:28:56+00:00        | 12:28:56+00:00       | 12:28:56+00:00        |          |                  |                      | 12:28:56+00:00        |          |            |       
+                                                                                                                                                                                                        
+[[34m2025-07-19T12:38:29.348+0000[0m] {[34m__init__.py:[0m43} INFO[0m - Loaded API auth backend: airflow.api.auth.backend.session[0m
+     |               |                      |                      |                       |          |                  | last_scheduling_deci |                       |          |            |       
+conf | dag_id        | dag_run_id           | data_interval_start  | data_interval_end     | end_date | external_trigger | sion                 | logical_date          | run_type | start_date | state 
+=====+===============+======================+======================+=======================+==========+==================+======================+=======================+==========+============+=======
+{}   | ecommerce_etl | manual__2025-07-19T1 | 2025-07-19           | 2025-07-19            | None     | True             | None                 | 2025-07-19            | manual   | None       | queued
+     |               | 2:38:30+00:00        | 12:38:30+00:00       | 12:38:30+00:00        |          |                  |                      | 12:38:30+00:00        |          |            |       
+                                                                                                                                                                                                        
+[[34m2025-07-19T12:46:50.532+0000[0m] {[34m__init__.py:[0m43} INFO[0m - Loaded API auth backend: airflow.api.auth.backend.session[0m
+     |               |                      |                      |                       |          |                  | last_scheduling_deci |                       |          |            |       
+conf | dag_id        | dag_run_id           | data_interval_start  | data_interval_end     | end_date | external_trigger | sion                 | logical_date          | run_type | start_date | state 
+=====+===============+======================+======================+=======================+==========+==================+======================+=======================+==========+============+=======
+{}   | ecommerce_etl | manual__2025-07-19T1 | 2025-07-19           | 2025-07-19            | None     | True             | None                 | 2025-07-19            | manual   | None       | queued
+     |               | 2:46:51+00:00        | 12:46:51+00:00       | 12:46:51+00:00        |          |                  |                      | 12:46:51+00:00        |          |            |       
+                                                                                                                                                                                                        
+[[34m2025-07-19T13:40:46.906+0000[0m] {[34m__init__.py:[0m43} INFO[0m - Loaded API auth backend: airflow.api.auth.backend.session[0m
+     |               |                      |                      |                       |          |                  | last_scheduling_deci |                       |          |            |       
+conf | dag_id        | dag_run_id           | data_interval_start  | data_interval_end     | end_date | external_trigger | sion                 | logical_date          | run_type | start_date | state 
+=====+===============+======================+======================+=======================+==========+==================+======================+=======================+==========+============+=======
+{}   | ecommerce_etl | manual__2025-07-19T1 | 2025-07-19           | 2025-07-19            | None     | True             | None                 | 2025-07-19            | manual   | None       | queued
+     |               | 3:40:48+00:00        | 13:40:48+00:00       | 13:40:48+00:00        |          |                  |                      | 13:40:48+00:00        |          |            |       
+                                                                                                                                                                                                        
+[[34m2025-07-19T13:43:54.242+0000[0m] {[34m__init__.py:[0m43} INFO[0m - Loaded API auth backend: airflow.api.auth.backend.session[0m
+     |               |                      |                      |                       |          |                  | last_scheduling_deci |                       |          |            |       
+conf | dag_id        | dag_run_id           | data_interval_start  | data_interval_end     | end_date | external_trigger | sion                 | logical_date          | run_type | start_date | state 
+=====+===============+======================+======================+=======================+==========+==================+======================+=======================+==========+============+=======
+{}   | ecommerce_etl | manual__2025-07-19T1 | 2025-07-19           | 2025-07-19            | None     | True             | None                 | 2025-07-19            | manual   | None       | queued
+     |               | 3:43:54+00:00        | 13:43:54+00:00       | 13:43:54+00:00        |          |                  |                      | 13:43:54+00:00        |          |            |       
+                                                                                                                                                                                                        
+OSError while attempting to symlink the latest log directory
+[[34m2025-07-20T18:01:03.733+0000[0m] {[34m__init__.py:[0m43} INFO[0m - Loaded API auth backend: airflow.api.auth.backend.session[0m
+     |               |                      |                      |                       |          |                  | last_scheduling_deci |                       |          |            |       
+conf | dag_id        | dag_run_id           | data_interval_start  | data_interval_end     | end_date | external_trigger | sion                 | logical_date          | run_type | start_date | state 
+=====+===============+======================+======================+=======================+==========+==================+======================+=======================+==========+============+=======
+{}   | ecommerce_etl | manual__2025-07-20T1 | 2025-07-20           | 2025-07-20            | None     | True             | None                 | 2025-07-20            | manual   | None       | queued
+     |               | 8:01:07+00:00        | 18:01:07+00:00       | 18:01:07+00:00        |          |                  |                      | 18:01:07+00:00        |          |            |       
+                                                                                                                                                                                                        
