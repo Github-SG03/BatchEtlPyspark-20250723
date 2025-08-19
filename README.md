@@ -1,189 +1,99 @@
-# 🛠️ PySpark E-Commerce ETL Project
+
+# Batch ETL PySpark Pipeline
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![CI](https://github.com/<your-username>/<repo-name>/actions/workflows/ci.yml/badge.svg)
-[![codecov](https://codecov.io/gh/<your-username>/<repo-name>/branch/main/graph/badge.svg)](https://codecov.io/gh/<your-username>/<repo-name>)
+![codecov](https://codecov.io/gh/<your-username>/<repo-name>/branch/main/graph/badge.svg)
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![PySpark](https://img.shields.io/badge/PySpark-3.5+-orange.svg)
+![Docker](https://img.shields.io/badge/docker-ready-blue.svg)
+![Airflow](https://img.shields.io/badge/airflow-2.9+-lightblue.svg)
 ![Security](https://img.shields.io/badge/security-disclosures-important.svg)
 
-> A production-grade, **portfolio-ready PySpark batch ETL pipeline** for e-commerce analytics  
-> Featuring modular ETL layers, CI/CD with GitHub Actions, Apache Airflow orchestration, testing, logging, notebook output, and Power BI visualization.
+## 🚀 Project Overview
+
+This is a complete PySpark Batch ETL pipeline project, containerized with Docker and orchestrated using Apache Airflow. It includes:
+- Raw to processed data movement
+- Notebook execution
+- Power BI reporting
+- CI/CD with GitHub Actions
+- Secrets encryption with SOPS
+
+## 🧑‍💻 Local Setup
+
+### 1️⃣ Clone the Repo
+```cmd
+git clone https://github.com/<your-username>/batch-etl-pyspark.git
+cd batch-etl-pyspark
+```
+
+### 2️⃣ Create Virtual Environment (Windows CMD)
+```cmd
+python -m venv .venv
+call .venv\Scripts\activate.bat
+pip install -r requirements.txt
+```
+
+### 3️⃣ Docker + Airflow
+```cmd
+docker-compose up --build -d
+```
+
+### 4️⃣ Run Pipeline from CMD (Windows)
+```cmd
+full_project_runner.cmd
+```
+
+## 🔐 Secure Your Secrets with SOPS (Optional)
+
+1. Download SOPS `.exe` from:
+   https://github.com/mozilla/sops/releases
+2. Move to a folder like `C:\Tools\SOPS\`
+3. Add folder to system PATH:
+   - Win + S → Search `Environment Variables`
+   - Edit system PATH → Add: `C:\Tools\SOPS\`
+4. Restart CMD, test with:
+```cmd
+sops --version
+```
+
+### Encrypt .env
+```cmd
+sops -e .env > .env.enc
+```
+
+### Decrypt .env
+```cmd
+sops -d .env.enc > .env
+```
+
+## 🔄 CI/CD with GitHub Actions
+
+GitHub Actions auto-triggers:
+- Python lint & test checks
+- DAG validation
+- .env decryption (if needed)
+
+File: `.github/workflows/ci.yml`
+
+## 📦 Packaging
+
+Build a `.whl` package:
+```cmd
+python setup.py bdist_wheel
+```
+
+Build a `.deb` (requires `fpm`):
+```bash
+fpm -s python -t deb dist/*.whl --name batch-etl-pyspark --version 1.0
+```
 
 ---
 
-## 📦 Project Structure
+## 🛠 TODO
 
-```text
-batch-etl-pyspark/
-│
-├── .github/workflows/ci.yml        # ✅ GitHub Actions (CI/CD)
-├── airflow/                        # Airflow configs + DB
-│   └── dags/
-│       └── ecommerce_etl_dag.py    # Airflow DAG
-├── data/
-│   ├── input/                      # 📥 Raw CSVs (products, customers, orders)
-│   └── processed/                  # 📤 Output after ETL
-├── logs/                           # 🪵 Logs from scheduler, webserver, dag, etc.
-├── notebooks/
-│   └── dev_etl_demo.ipynb          # 📓 Papermill-executed analysis notebook
-├── src/
-│   ├── etl/
-│   │   ├── extract.py              # extract_*() logic
-│   │   ├── transform.py            # clean + join + derive metrics
-│   │   └── load.py                 # write to CSV/parquet
-│   └── utils/
-│       └── spark_session.py        # SparkSession builder
-├── tests/
-│   ├── test_extract.py             # ✅ Unit test: extract
-│   ├── test_transform.py           # ✅ Unit test: transform
-│   ├── test_load.py                # ✅ Unit test: load
-│   └── test_sales_metrics.py       # Optional metrics tests
-├── .env                            # Configurable paths/secrets
-├── .gitignore
-├── LICENSE                         # MIT License
-├── README.md                       # 🙌 You're reading it
-├── requirements.txt                # All packages for local dev
-├── full_project_runner.sh          # ⚙️ One-click launch script (Airflow + Notebook + Power BI)
-└── pyproject.toml (optional)
-
-⚙️ Features
-
-    ✅ Modular PySpark-based ETL pipeline
-
-    ✅ Airflow DAG orchestration + scheduling
-
-    ✅ Papermill notebook execution (automated)
-
-    ✅ Power BI integration (CSV → Desktop auto-launch)
-
-    ✅ Environment management via .env
-
-    ✅ Unit testing with pytest (extraction, transformation, loading)
-
-    ✅ Logging: airflow, scheduler, notebook logs all tracked
-
-    ✅ GitHub Actions-based CI (via ci.yml)
-
-    ✅ One-command launcher (full_project_runner.sh) for demo/presentation
-
-    ✅ Production-style repo structure — ready for interviews or GitHub Pages
-
-🚀 Getting Started
-1️⃣ Clone this Repository
-
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
-
-2️⃣ Set up Virtual Environment
-
-python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-
-3️⃣ Create .env File
-
-OUTPUT_PATH=./data/processed/
-
-4️⃣ Run Locally via PySpark
-
-python src/main.py
-
-5️⃣ Or Run Full Pipeline via Airflow
-
-chmod +x full_project_runner.sh
-./full_project_runner.sh
-
-This will:
-
-    Start Airflow scheduler + webserver
-
-    Trigger the DAG
-
-    Execute the Jupyter notebook
-
-    Export CSV
-
-    Auto-open Power BI with the result ✅
-
-📈 Sample Output
-Metric	Value
-Total Orders	xxx
-Revenue	₹xxx.xx
-Top Customers	✅ ranked
-Category Trend	📈 chart
-
-📍 Output is saved to data/processed/processed_output.csv
-📍 Notebook output: notebooks/dev_etl_demo_<date>.ipynb
-🧪 Testing
-
-pytest tests/
-
-Includes:
-
-    test_extract.py → Validates loading raw CSVs
-
-    test_transform.py → Ensures derived metrics work
-
-    test_load.py → Validates CSV write
-
-    test_sales_metrics.py → Optional: business logic
-
-🔁 CI/CD Integration
-
-✅ GitHub Actions included via:
-
-.github/workflows/ci.yml
-
-Every push to main:
-
-    Installs Python + dependencies
-
-    Runs full test suite via pytest
-
-    Fails build if any test fails
-
-🔐 Security & Secrets
-
-    .env manages all paths
-
-    Add .env.example for team usage
-
-    Optional encryption via git-crypt or sops
-
-🧳 Project Resume Summary (Use for Portfolio)
-
-    ✅ A complete, reproducible ETL + Analytics pipeline using PySpark
-    🛠️ Designed for real-world batch processing
-    📊 Integrated with Airflow, CI/CD, Power BI, and unit testing
-    🎯 Ready to showcase in interviews and GitHub profile
-
-🧠 Advanced Tips (Optional)
-
-    Add docs/ folder + mkdocs.yml → for GitHub Pages site
-
-    Add .deb or .whl packaging only if publishing to PyPI (skip otherwise)
-
-    Use GitHub Secrets + dotenv-linter for secure .env handling
-
-📌 GitHub First-Time Setup (manual once)
-
-git init
-git remote add origin https://github.com/<your-username>/<repo-name>.git
-git add .
-git commit -m "🚀 Final production-ready ETL project"
-git push -u origin main
-
-# Optional: tag version
-git tag v1.0.0
-git push origin v1.0.0
-
-📝 License
-
-This project is licensed under the MIT License — see LICENSE for details.
-💬 Questions?
-
-Feel free to open an issue, star the repo, or reach out on LinkedIn!
-
-    Built with 💙 using PySpark + Airflow + VSCode + GitHub Actions
-    #DataEngineering #PortfolioProject #ETL #CI/CD #Papermill #Airflow"# BatchEtlPyspark-20250723" 
+- [x] Setup CMD runner for Windows users
+- [x] Use Docker for Airflow orchestration
+- [x] Use SOPS for secure secret management
+- [x] Package code for deployment
+- [x] GitHub Actions CI/CD + badge

@@ -1,16 +1,19 @@
 from airflow import DAG
-from airflow.operators.python import PythonOperator #type:ignore
-from datetime import datetime, timedelta
+from airflow.operators.python import PythonOperator  # type: ignore
+from datetime import datetime,timedelta
 import os
 import sys
 
-# ✅ Set project root (where 'src' lives)
+# ✅ Add /opt/airflow/src to sys.path (for Airflow Docker context)
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-if project_root not in sys.path:
-    sys.path.insert(0, project_root)
+src_path = os.path.join(project_root, "src")
+if src_path not in sys.path:
+    sys.path.insert(0, src_path)
+
+print("🧠 PYTHONPATH Context:", sys.path)
 
 # ✅ Load .env file
-from dotenv import load_dotenv #type:ignore
+from dotenv import load_dotenv  # type: ignore
 load_dotenv(dotenv_path=os.path.join(project_root, ".env"))
 
 # ✅ Import custom modules
